@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site pessoal sobre como lidar com ansiedade e depressão. Inclui biografia, portfólio de projetos e mais.">
+    <title>Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #555;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .biography, .portfolio, .contact-form, .social-media, .blog-feed, .ebook {
+            margin-bottom: 50px;
+        }
+        .biography h2, .portfolio h2, .contact-form h2, .social-media h2, .blog-feed h2, .ebook h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .biography p, .portfolio p, .contact-form p, .social-media p, .blog-feed p, .ebook p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+        .portfolio img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin: 15px 0 5px;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .contact-form button {
+            padding: 15px;
+            background-color: #444;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        .social-media a {
+            color: #444;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.3em;
+        }
+        .social-media a:hover {
+            color: #000;
+        }
+        .blog-feed .post {
+            margin-bottom: 30px;
+        }
+        .blog-feed .post h3 {
+            font-size: 1.8em;
+            margin: 0;
+        }
+        .blog-feed .post p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+        .ebook .cta-button {
+            display: block;
+            width: 80%;
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #e67e22;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .ebook .cta-button:hover {
+            background-color: #d35400;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site Pessoal</h1>
+        <p>Compartilhando estratégias e insights para lidar com a ansiedade e depressão</p>
+    </header>
+    <nav>
+        <a href="#biography">Biografia</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#ebook">eBook</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="biography" class="biography">
+            <h2>Biografia</h2>
+            <p>Olá! Eu sou [Seu Nome], um defensor apaixonado pela saúde mental. Minha missão é ajudar as pessoas a entenderem e gerenciarem a ansiedade e a depressão. Através da minha própria jornada e da minha formação em psicologia, aprendi várias técnicas e estratégias eficazes que podem transformar vidas.</p>
+            <p>Minha experiência abrange desde a terapia cognitivo-comportamental até técnicas de mindfulness, e estou aqui para compartilhar tudo o que aprendi. Acredito que, ao aumentar a conscientização e fornecer ferramentas práticas, podemos criar um mundo onde a saúde mental é priorizada e todos têm acesso ao apoio de que precisam.</p>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h2>Portfólio de Projetos</h2>
+            <p>Confira alguns dos meus projetos focados em saúde mental e bem-estar:</p>
+            <img src="projeto1.jpg" alt="Projeto 1">
+            <p><strong>Projeto 1:</strong> Desenvolvimento de um aplicativo de meditação guiada para ajudar pessoas a reduzirem a ansiedade.</p>
+            <img src="projeto2.jpg" alt="Projeto 2">
+            <p><strong>Projeto 2:</strong> Criação de workshops sobre técnicas de mindfulness em empresas para promover um ambiente de trabalho mais saudável.</p>
+        </section>
+        <section id="ebook" class="ebook">
+            <h2>eBook: Superando a Ansiedade e a Depressão</h2>
+            <p>Está lutando contra a ansiedade e a depressão? Meu eBook exclusivo, <strong>"Superando a Ansiedade e a Depressão"</strong>, oferece estratégias comprovadas e práticas para ajudá-lo a recuperar o controle da sua vida. Com base em minha experiência e formação, este guia abrangente aborda técnicas de mindfulness, exercícios de respiração, e dicas diárias para gerenciar e superar esses desafios.</p>
+            <p>Não perca a oportunidade de transformar sua vida. Obtenha o conhecimento e as ferramentas necessárias para viver uma vida mais equilibrada e feliz.</p>
+            <a href="https://example.com/comprar-ebook" class="cta-button">Compre Agora!</a>
+        </section>
+        <section id="blog" class="blog-feed">
+            <h2>Blog</h2>
+            <div class="post">
+                <h3>Como a Meditação Pode Ajudar na Ansiedade</h3>
+                <p>A meditação é uma prática poderosa que pode ajudar a acalmar a mente e reduzir a ansiedade. Descubra como começar e incorporar a meditação na sua rotina diária.</p>
+            </div>
+            <div class="post">
+                <h3>Dicas Práticas para Gerenciar a Depressão no Dia a Dia</h3>
+                <p>Gerenciar a depressão pode ser desafiador, mas com algumas estratégias práticas, você pode melhorar significativamente sua qualidade de vida. Confira nossas dicas.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact-form">
+            <h2>Contato</h2>
+            <p>Se você deseja entrar em contato comigo para saber mais sobre meu trabalho ou colaborar em algum projeto, por favor, preencha o formulário abaixo:</p>
+            <form action="https://example.com/submit-form" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section class="social-media">
+            <h2>Redes Sociais</h2>
+            <p>Conecte-se comigo nas redes sociais:</p>
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://twitter.com">Twitter</a>
+            <a href="https://instagram.com">Instagram</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Meu
